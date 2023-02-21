@@ -1,8 +1,8 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "push-play",
+  "title": "Push Play - Renders the preview of a YouTube video and opens it for playback on click.",
   "description": "",
-  "version": "#{VERSION}#",
+  "version": "0.0.1",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
@@ -12,9 +12,8 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "nothingasis",
+      "discord": "nothingasis#1548"
     }
   ],
   "relationships": {
@@ -37,15 +36,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "url": "https://github.com/emptywrapper/push-play",
+  "manifest": "https://raw.githubusercontent.com/emptywrapper/push-play/master/module.json",
+  "download": "https://github.com/emptywrapper/push-play/archive/refs/heads/master.zip",
+  "license": "MIT",
+  "readme": "README.md"
 }
