@@ -2,7 +2,7 @@ Hooks.once("init", async function () {});
 
 Hooks.once("ready", async function () {});
 
-Hooks.on("renderChatLog", async (log, html, data) => {
+Hooks.on("renderChatLog", (log, html, data) => {
   // Find all chat messages with a YouTube video link
   const chatMessages = html.find(".chat-message .message-content");
   chatMessages.each((index, element) => {
@@ -27,9 +27,11 @@ Hooks.on("renderChatLog", async (log, html, data) => {
         const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
         const dialogHtml = `<iframe width="560" height="315" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>`;
         const youtubeMetaURL = `https://www.youtube.com/oembed?url=${videoUrl}&format=json`;
-        const youtubeMetaObject = fetch(youtubeMetaURL)
-          .then((data) => data.json())
-          .then((data) => Promise.resolve(data));
+        let youtubeMetaObject = fetch(youtubeMetaURL).then((data) =>
+          data.json()
+        );
+
+        console.log("youtubeMetaObject: ", youtubeMetaObject);
 
         new Dialog({
           title: `${youtubeMetaObject.title} - YouTube`,
