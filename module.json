@@ -29,13 +29,6 @@
   "styles": [
     "styles/module.css"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
   "url": "https://github.com/emptywrapper/push-play",
   "manifest": "https://raw.githubusercontent.com/emptywrapper/push-play/master/module.json",
   "download": "https://github.com/emptywrapper/push-play/archive/refs/heads/master.zip",
