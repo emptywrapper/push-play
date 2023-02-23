@@ -2,7 +2,7 @@
   "id": "push-play",
   "title": "Push Play",
   "description": "Renders the preview of a YouTube video and opens it for playback on click.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
