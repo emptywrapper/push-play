@@ -21,13 +21,13 @@
     "requires": []
   },
   "esmodules": [
-    "scripts/module.js"
+    "src/scripts/module.js"
   ],
   "scripts": [
-    "scripts/lib/index.js"
+    "src/scripts/lib/index.js"
   ],
   "styles": [
-    "styles/module.css"
+    "src/styles/module.css"
   ],
   "url": "https://github.com/emptywrapper/push-play",
   "manifest": "https://raw.githubusercontent.com/emptywrapper/push-play/master/module.json",
